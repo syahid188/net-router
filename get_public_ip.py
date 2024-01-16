@@ -16,8 +16,7 @@ add comment=publicip dont-require-permissions=yes name=publicip owner=admin \
     policy=read,write,test source="/tool fetch mode=https http-method=post htt\
     p-header-field=\"Content-Type: application/json\" http-data=\"{\\\"data\\\
     \": {\\\"site_code\\\": \\\"WH-TES04\\\", \\\"cat0\\\": \\\"TEST\\\", \\\"\
-    cat1\\\": \\\"\\\"}}\" url=\"https://gateway.shipper.id/cicd/v1/network/ip\
-    \" output=user;"")
+    cat1\\\": \\\"\\\"}}\" url=\"https://url.com" output=user;"")
 
 
 
